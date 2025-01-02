@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    darkMode: ["class"],
-    content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
+  darkMode: ["class"],
+  content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
   	extend: {
   		borderRadius: {
@@ -49,6 +49,16 @@ module.exports = {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
+  			}
+  		},
+  		animation: {
+  			gradient: 'gradient 8s linear infinite'
+  		},
+  		keyframes: {
+  			gradient: {
+  				to: {
+  					backgroundPosition: 'var(--bg-size) 0'
+  				}
   			}
   		}
   	}
