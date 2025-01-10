@@ -1,11 +1,9 @@
 import { Vortex } from "@/components/ui/vortex";
-import { WalletDisconnectButton, WalletMultiButton } from "@solana/wallet-adapter-react-ui";
-import { HoverButton } from "./ui/hover-button";
-import { TokenLaunchpad } from "./TokenLaunchpad";
-import { SparklesText } from "./ui/sparkles-text";
 import { cn } from "@/lib/utils";
-import { ChevronRight } from "lucide-react";
+import { WalletDisconnectButton, WalletMultiButton } from "@solana/wallet-adapter-react-ui";
+import { TokenLaunchpad } from "./TokenLaunchpad";
 import { AnimatedGradientText } from "./ui/animated-gradient-text";
+import { SparklesText } from "./ui/sparkles-text";
 
 function Section() {
   return (
